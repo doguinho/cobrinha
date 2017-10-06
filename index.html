@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Jogo da cobrinha - snake">
+        <meta name="keywords" content="game, snake, classics">
+        <meta name="author" content="Doug the Fuck">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+        <title>Cobrinha</title>
+        <link rel="stylesheet" href="/css/app.css" type="text/css" />
+    </head>
+
+    <body>
+
+        <div id="score">Score: <span id="scoreNum"></span></div>
+
+        <div class="outer" id="display">
+          <div class="middle">
+            <div class="inner">
+                
+                <div id="startScreen" class="hide">
+        
+                  <h1>Eat the red dot<br/><small>Use arrows to start</small></h1>
+                  <div id="gameKeys"></div>
+                  
+                </div>
+                
+                <div id="overScreen" class="hide">
+                  
+                  <h1>Game Over</h1>  
+                  <button class="button" id="btnNewGame">Restart</button>    
+                  
+                </div>
+        
+            </div>
+          </div>
+        </div>
+
+        <script type="application/javascript" src="js/app.js"></script>
+
+    </body>
+</html>
